@@ -22,7 +22,30 @@
       flex-wrap: wrap;
       width: 100%;
     }
+      .video-background {
+position: relative;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+#background-video {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+
   </style>
+        <video autoplay muted loop id="background-video">
+        <source src="Technology Background Loop Video - Non Copyright Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
   <h1 class="ho" style="color: blueviolet;">JavaScript Functions</h1>
   <p id="hee"></p>
   <div class="videos">
